@@ -1,0 +1,11 @@
+.img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+}
+.count__down-col {
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
