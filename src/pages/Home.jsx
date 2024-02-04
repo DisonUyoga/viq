@@ -34,19 +34,19 @@ const Home = () => {
     (item) => item?.category?.title.toLowerCase() === "trending"
   );
   const televisionProducts = products.filter(
-    (item) => item?.category?.title.toLowerCase() === "television"
+    (item) => item?.category?.title.toLowerCase() === "sofa"
   );
   const cookerProducts = products.filter(
-    (item) => item?.category?.title.toLowerCase() === "cooker"
+    (item) => item?.category?.title.toLowerCase() === "bed"
   );
   const soundProducts = products.filter(
-    (item) => item?.category?.title.toLowerCase() === "sound bar and audio"
+    (item) => item?.category?.title.toLowerCase() === "wall unit"
   );
   const fridgeProducts = products.filter(
-    (item) => item?.category?.title.toLowerCase() === "fridge"
+    (item) => item?.category?.title.toLowerCase() === "dining table"
   );
   const gamingProducts = products.filter(
-    (item) => item?.category?.title.toLowerCase() === "gaming"
+    (item) => item?.category?.title.toLowerCase() === "coffee table"
   );
   return (
     <>

@@ -27,29 +27,29 @@ const Shop = () => {
 
   const handleFilter = (e) => {
     const { value } = e.target;
-    if (value === "television") {
+    if (value === "bed") {
       const filteredProducts = products?.filter(
-        (item) => item.category?.title.toLowerCase() === "television"
+        (item) => item.category?.title.toLowerCase() === "bed"
       );
       setProductsData(filteredProducts);
-    } else if (value === "cooker") {
+    } else if (value === "sofa") {
       const filteredProducts = products?.filter(
-        (item) => item.category?.title.toLowerCase() === "cooker"
+        (item) => item.category?.title.toLowerCase() === "sofa"
       );
       setProductsData(filteredProducts);
-    } else if (value === "fridge") {
+    } else if (value === "wall unit") {
       const filteredProducts = products?.filter(
-        (item) => item.category?.title.toLowerCase() === "fridge"
+        (item) => item.category?.title.toLowerCase() === "wall unit"
       );
       setProductsData(filteredProducts);
-    } else if (value === "sound bar and audio") {
+    } else if (value === "coffee table") {
       const filteredProducts = products?.filter(
-        (item) => item.category?.title.toLowerCase() === "sound bar and audio"
+        (item) => item.category?.title.toLowerCase() === "coffee table"
       );
       setProductsData(filteredProducts);
-    } else if (value === "gaming") {
+    } else if (value === "dining table") {
       const filteredProducts = products?.filter(
-        (item) => item.category?.title.toLowerCase() === "gaming"
+        (item) => item.category?.title.toLowerCase() === "dining table"
       );
       setProductsData(filteredProducts);
     } else if (value === "offer") {
@@ -85,13 +85,13 @@ const Shop = () => {
                 <div className="filter__widget">
                   <select onChange={handleFilter}>
                     <option value="">Fileter By Category</option>
-                    <option value="television">television</option>
-                    <option value="fridge">fridge</option>
-                    <option value="gaming">gaming</option>
-                    <option value="sound bar and audio">
-                      sound bar and audio
+                    <option value="sofa">sofa</option>
+                    <option value="Dining table">Dining table</option>
+                    <option value="coffee table">coffee table</option>
+                    <option value="wall unit">
+                      wall unit
                     </option>
-                    <option value="cooker">cooker</option>
+                    <option value="bed">bed</option>
                     <option value="trending">trending</option>
                     <option value="offer">offer</option>
                   </select>

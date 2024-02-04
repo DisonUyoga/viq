@@ -7,7 +7,7 @@ import "./AnimatedLetters";
 import "./trending.css";
 import AnimatedLetters from "./AnimatedLetters";
 import { useState, useEffect } from "react";
-import ViqTechLogo from "../assets/images/viqtech.jpg";
+import ViqTechLogo from "../assets/images/maish-logo.png";
 
 const Trending = ({ products, year }) => {
   const [letterClass, setLetterClass] = useState("text-animate");

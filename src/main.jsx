@@ -9,7 +9,7 @@ import "remixicon/fonts/remixicon.css";
 import App from "./App.jsx";
 import store from "./redux/store.js";
 
-axios.defaults.baseURL = "https://www.viqtech.co.ke";
+axios.defaults.baseURL = "http://electronics233.pythonanywhere.com";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>

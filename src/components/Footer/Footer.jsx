@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import viqtechLogo from "../../assets/images/viqtech.jpg";
+import viqtechLogo from "../../assets/images/maish-logo.png";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="logo">
               <div className="viqTechLogo">
                 <img src={viqtechLogo} alt="logo" />
-                <h1 className="text-white mt-2">Viq Tech Solutions</h1>
+                <h1 className="text-white mt-2">COMFORT FURNITURE</h1>
               </div>
             </div>
           </Col>
@@ -22,19 +22,19 @@ const Footer = () => {
               <h4 className="quick__links-title">Top Category</h4>
               <ListGroup>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#television">Television</Link>
+                  <Link to="#sofa">sofa</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#cooker">Cookers</Link>
+                  <Link to="#coffee utable">coffee table</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#fridge">Fridge</Link>
+                  <Link to="#bed">bed</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#gaming">Gaming</Link>
+                  <Link to="#gaming">Dining table</Link>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#sound">Sound Bar and Audio</Link>
+                  <Link to="#sound">Wall unit</Link>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -66,13 +66,13 @@ const Footer = () => {
                   <span>
                     <i className="ri-map-pin-line"></i>
                   </span>
-                  <p>Skymall building, Ground floor, Gaberone Road, Nairobi</p>
+                  <p>Mairo-Inya,Nyeri Stage, Nyahururu</p>
                 </ListGroupItem>
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
                   <span>
                     <i className="ri-phone-line"></i>
                   </span>
-                  <p>+254706542804</p>
+                  <p>+254714057939</p>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -85,11 +85,11 @@ const Footer = () => {
           </Col>
           <Col lg="12">
             <div className="d-flex justify-content-center gap-4 fw-bold social__links">
-              <Link to="https://www.facebook.com">
+              <Link to="https://www.facebook.com/comfort%20furniture">
                 <span className="ri-facebook-line"></span>
               </Link>
-              <Link to="https://www.instagram.com/viqtech_ke">
-                <span className="ri-instagram-line"></span>
+              <Link to="https://wa.me/+254714057939" target="_blank">
+                <span className="ri-whatsapp-line"></span>
               </Link>
             </div>
           </Col>

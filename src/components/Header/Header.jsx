@@ -86,7 +86,7 @@ const Header = () => {
               <img className="animate__image" src={logo} alt="logo" />
               <div>
                 <h1 className="fs-bold" onClick={() => navigateToCart("/")}>
-                  VIQTECH
+                  COMFORT FURNITURES
                 </h1>
               </div>
             </div>
