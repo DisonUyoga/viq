@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'jenkins pipeline'
         echo 'hello'
+        echo "we are testing jenkins"
       }
     }
 
